@@ -4,8 +4,19 @@
     <meta charset="utf-8">
     <title>Sim City Bomb Squad</title>
     <link rel="stylesheet" href="style.css">
-    <script src="bomb.js"></script>
   </head>
-  <body class="unexploded">
+  <body id="unexploded">
+    <div class="countdown">0:00:<span id="seconds">30</span></div>
+    <div class="timer">
+      <div class="wires">
+        <div  class="i0 wire"><img src="img/uncut-blue-wire.png"></div>
+        <div  class="i1 wire"><img src="img/uncut-red-wire.png"></div>
+        <div  class="i2 wire"><img src="img/uncut-white-wire.png"></div>
+        <div  class="i3 wire"><img src="img/uncut-yellow-wire.png"></div>
+        <div  class="i4 wire"><img src="img/uncut-green-wire.png"></div>
+      </div>
+      <button id="reset">Reset</button>
+    </div>
+  <script src="bomb.js"></script>
   </body>
 </html>
